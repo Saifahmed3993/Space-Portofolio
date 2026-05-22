@@ -30,21 +30,9 @@ const nextConfig = {
     // Reduce build output and enable SWC minifier (default in Next 14)
     swcMinify: true,
 
-    // Fix: exclude Three.js packages from build trace collection.
-    // Next.js 14.0.3 has a bug where micromatch regex overflows on deep
-    // Three.js/Drei file paths (collect-build-traces.js:244).
-    experimental: {
-        outputFileTracingExcludes: {
-            "*": [
-                "node_modules/three/**",
-                "node_modules/@react-three/**",
-                "node_modules/troika-three-text/**",
-                "node_modules/troika-worker-utils/**",
-                "node_modules/webgl-sdf-generator/**",
-                "node_modules/bidi-js/**",
-            ],
-        },
-    },
+    // Disable output file tracing to prevent Vercel's micromatch stack overflow bug
+    // with deep Three.js dependencies during the build phase.
+    outputFileTracing: false,
 };
 
 module.exports = nextConfig;
