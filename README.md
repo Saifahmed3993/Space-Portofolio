@@ -1,36 +1,107 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 Saif Aldin Ahmed — Space Portfolio
 
-## Getting Started
+> Personal portfolio website built with **Next.js 14**, **TypeScript**, **Tailwind CSS**, and **Three.js** — featuring an interactive 3D star background, animated sections, and a full showcase of projects.
 
-First, run the development server:
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blueviolet?style=for-the-badge&logo=vercel)](https://github.com/Saifahmed3993/Space-Portofolio)
+[![GitHub](https://img.shields.io/badge/GitHub-Saifahmed3993-black?style=for-the-badge&logo=github)](https://github.com/Saifahmed3993)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Saif_Aldin_Ahmed-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/saif-aldin-ahmed)
+
+---
+
+## 👤 About Me
+
+**Saif Aldin Ahmed** — Full-Stack .NET Developer & Information Systems student at MUST University (Expected 2027).
+
+- 🏆 **.NET Team Leader** — Digital Egypt Pioneers Initiative
+- 💼 **Frontend Developer Intern** — Elevo Pathway & Haya Karima
+- 🗄️ **Database Designer Intern** — mylerz.co
+- 📢 **Public Relations & AI Head** — FDAI
+- 💻 **Programming Head** — Student Activities
+
+---
+
+## ✨ Features
+
+- 🌌 **Interactive 3D Star Background** powered by Three.js / React Three Fiber
+- 🎞️ **Smooth Animations** with Framer Motion
+- 📱 **Fully Responsive** across all screen sizes
+- ⚡ **Optimised Performance** — lazy-loaded sections, compressed images, AVIF/WebP support
+- 🗂️ **Projects Showcase** with category badges (Full-Stack, .NET/C#, C++/OOP, Frontend)
+- 📚 **Learning Resources Section** — LINQ Full Guide Demo & Learn C# & .NET repos
+- 📄 **Resume Download** link via Google Drive
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Technologies |
+|---|---|
+| **Framework** | Next.js 14 (App Router) |
+| **Language** | TypeScript |
+| **Styling** | Tailwind CSS |
+| **3D / Animation** | Three.js, React Three Fiber, Framer Motion |
+| **Icons** | React Icons |
+| **Image Opt.** | Next.js Image + Sharp (AVIF/WebP) |
+
+---
+
+## 📁 Projects Showcased
+
+### Full-Stack
+| Project | Description |
+|---|---|
+| [MUST Pharma Fullstack](https://github.com/Saifahmed3993/must-pharma-fullstack) | Pharmacy Management System — ASP.NET Core + React + SQL Server |
+| [Clothes Store](https://github.com/Saifahmed3993/Clouthes-Store-by-Saif) | E-Commerce clothing store — ASP.NET Core + C# |
+| [SA School LMS](https://github.com/Saifahmed3993/SA-School) | Learning Management System with bilingual support |
+
+### .NET / C#
+| Project | Description |
+|---|---|
+| [Stock Trading Portfolio](https://github.com/Saifahmed3993/Stock-Trading-Portfolio-Management-System) | Real-time stock portfolio management |
+| [Product Manager](https://github.com/Saifahmed3993/Product-Manager) | Inventory & product management app |
+| [SmartDate](https://github.com/Saifahmed3993/SmartDate) | Immutable Date value object with clean code principles |
+
+### C++ / Systems
+| Project | Description |
+|---|---|
+| [Bank / Library System](https://github.com/Saifahmed3993/LibraryManagmentSystem) | OOP banking & library operations |
+| [Employee & Client Management](https://github.com/Saifahmed3993/Softwarecompany3993) | CRM-style desktop software |
+
+### 📚 Learning & Open-Source
+| Repo | Description |
+|---|---|
+| [LINQ Full Guide Demo](https://github.com/Saifahmed3993/LINQ-Full-Guide-Demo) | Complete LINQ guide in C# — filtering, grouping, joins & more |
+| [Learn C# & .NET](https://github.com/Saifahmed3993/learn-csharp) | Structured C# learning path with examples & practice projects (MIT) |
+
+---
+
+## 🚀 Getting Started
 
 ```bash
+# Clone the repo
+git clone https://github.com/Saifahmed3993/Space-Portofolio.git
+cd Space-Portofolio
+
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 📬 Contact
 
-## Learn More
+| | |
+|---|---|
+| 📧 Email | [saifahmedelbattawy@gmail.com](mailto:saifahmedelbattawy@gmail.com) |
+| 📱 Phone | +20 101 203 4328 |
+| 💼 LinkedIn | [linkedin.com/in/saif-aldin-ahmed](https://www.linkedin.com/in/saif-aldin-ahmed) |
+| 🐙 GitHub | [github.com/Saifahmed3993](https://github.com/Saifahmed3993) |
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<p align="center">© 2025 Saif Aldin Ahmed · Built with Next.js ❤️</p>
