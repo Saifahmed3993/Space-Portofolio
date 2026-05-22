@@ -30,15 +30,6 @@ const nextConfig = {
     // Reduce build output and enable SWC minifier (default in Next 14)
     swcMinify: true,
 
-    // Experimental: package tree-shaking
-    experimental: {
-        optimizePackageImports: [
-            "react-icons",
-            "framer-motion",
-            "@react-three/fiber",
-            "@react-three/drei",
-        ],
-    },
 };
 
 module.exports = nextConfig;
