@@ -1,87 +1,54 @@
 # 🚀 Saif Aldin Ahmed — Space Portfolio
 
-> Personal portfolio website built with **Next.js 14**, **TypeScript**, **Tailwind CSS**, and **Three.js** — featuring an interactive 3D star background, animated sections, and a full showcase of projects.
+> Personal portfolio website with a space-themed UI built with **Next.js 14**, **TypeScript**, **Tailwind CSS**, and **Three.js**.
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-blueviolet?style=for-the-badge&logo=vercel)](https://github.com/Saifahmed3993/Space-Portofolio)
-[![GitHub](https://img.shields.io/badge/GitHub-Saifahmed3993-black?style=for-the-badge&logo=github)](https://github.com/Saifahmed3993)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Saif_Aldin_Ahmed-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/saif-aldin-ahmed)
-
----
-
-## 👤 About Me
-
-**Saif Aldin Ahmed** — Full-Stack .NET Developer & Information Systems student at MUST University (Expected 2027).
-
-- 🏆 **.NET Team Leader** — Digital Egypt Pioneers Initiative
-- 💼 **Frontend Developer Intern** — Elevo Pathway & Haya Karima
-- 🗄️ **Database Designer Intern** — mylerz.co
-- 📢 **Public Relations & AI Head** — FDAI
-- 💻 **Programming Head** — Student Activities
+[![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)](https://nextjs.org)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)](https://www.typescriptlang.org)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3-38bdf8?logo=tailwindcss)](https://tailwindcss.com)
+[![Three.js](https://img.shields.io/badge/Three.js-r3f-black?logo=three.js)](https://threejs.org)
 
 ---
 
-## ✨ Features
+## ✨ Sections
 
-- 🌌 **Interactive 3D Star Background** powered by Three.js / React Three Fiber
-- 🎞️ **Smooth Animations** with Framer Motion
-- 📱 **Fully Responsive** across all screen sizes
-- ⚡ **Optimised Performance** — lazy-loaded sections, compressed images, AVIF/WebP support
-- 🗂️ **Projects Showcase** with category badges (Full-Stack, .NET/C#, C++/OOP, Frontend)
-- 📚 **Learning Resources Section** — LINQ Full Guide Demo & Learn C# & .NET repos
-- 📄 **Resume Download** link via Google Drive
+| Section | Description |
+|---|---|
+| **Hero** | Animated intro with Three.js star canvas background |
+| **About Me** | Profile, experience & leadership highlights |
+| **Skills** | Frontend, Backend, Dev Tools & Libraries |
+| **Projects** | Full-stack, .NET/C#, C++ OOP, and Frontend projects |
+| **Learning Resources** | LINQ Full Guide Demo & Learn C# open-source repos |
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Layer | Technologies |
-|---|---|
-| **Framework** | Next.js 14 (App Router) |
-| **Language** | TypeScript |
-| **Styling** | Tailwind CSS |
-| **3D / Animation** | Three.js, React Three Fiber, Framer Motion |
-| **Icons** | React Icons |
-| **Image Opt.** | Next.js Image + Sharp (AVIF/WebP) |
+- **Framework:** Next.js 14 (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **3D / Animation:** Three.js via `@react-three/fiber` & `framer-motion`
+- **Icons:** `react-icons`
 
 ---
 
-## 📁 Projects Showcased
+## 📁 Project Structure
 
-### Full-Stack
-| Project | Description |
-|---|---|
-| [MUST Pharma Fullstack](https://github.com/Saifahmed3993/must-pharma-fullstack) | Pharmacy Management System — ASP.NET Core + React + SQL Server |
-| [Clothes Store](https://github.com/Saifahmed3993/Clouthes-Store-by-Saif) | E-Commerce clothing store — ASP.NET Core + C# |
-| [SA School LMS](https://github.com/Saifahmed3993/SA-School) | Learning Management System with bilingual support |
-
-### .NET / C#
-| Project | Description |
-|---|---|
-| [Stock Trading Portfolio](https://github.com/Saifahmed3993/Stock-Trading-Portfolio-Management-System) | Real-time stock portfolio management |
-| [Product Manager](https://github.com/Saifahmed3993/Product-Manager) | Inventory & product management app |
-| [SmartDate](https://github.com/Saifahmed3993/SmartDate) | Immutable Date value object with clean code principles |
-
-### C++ / Systems
-| Project | Description |
-|---|---|
-| [Bank / Library System](https://github.com/Saifahmed3993/LibraryManagmentSystem) | OOP banking & library operations |
-| [Employee & Client Management](https://github.com/Saifahmed3993/Softwarecompany3993) | CRM-style desktop software |
-
-### 📚 Learning & Open-Source
-| Repo | Description |
-|---|---|
-| [LINQ Full Guide Demo](https://github.com/Saifahmed3993/LINQ-Full-Guide-Demo) | Complete LINQ guide in C# — filtering, grouping, joins & more |
-| [Learn C# & .NET](https://github.com/Saifahmed3993/learn-csharp) | Structured C# learning path with examples & practice projects (MIT) |
+```
+├── app/               # Next.js App Router (layout, page, globals.css)
+├── components/
+│   ├── main/          # Hero, About, Skills, Projects, Navbar, Footer, StarBackground
+│   └── sub/           # HeroContent, ProjectCard, SkillDataProvider, SkillText
+├── constants/         # Skills data arrays
+├── public/
+│   └── mockups/       # Project screenshot images
+└── utils/             # Framer Motion variants
+```
 
 ---
 
 ## 🚀 Getting Started
 
 ```bash
-# Clone the repo
-git clone https://github.com/Saifahmed3993/Space-Portofolio.git
-cd Space-Portofolio
-
 # Install dependencies
 npm install
 
@@ -97,11 +64,11 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 | | |
 |---|---|
-| 📧 Email | [saifahmedelbattawy@gmail.com](mailto:saifahmedelbattawy@gmail.com) |
-| 📱 Phone | +20 101 203 4328 |
-| 💼 LinkedIn | [linkedin.com/in/saif-aldin-ahmed](https://www.linkedin.com/in/saif-aldin-ahmed) |
-| 🐙 GitHub | [github.com/Saifahmed3993](https://github.com/Saifahmed3993) |
+| **Email** | saifahmedelbattawy@gmail.com |
+| **Phone** | +20 101 203 4328 |
+| **LinkedIn** | [saif-aldin-ahmed](https://www.linkedin.com/in/saif-aldin-ahmed) |
+| **GitHub** | [Saifahmed3993](https://github.com/Saifahmed3993) |
 
 ---
 
-<p align="center">© 2025 Saif Aldin Ahmed · Built with Next.js ❤️</p>
+© 2025 Saif Aldin Ahmed
